@@ -1,0 +1,55 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background-image: url("pageback.jpg");
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+ }
+ 
+ input[type=text] {
+     width: 540px;
+     height: 50px;
+     margin-left: 320px;
+     margin-top: 30px;
+     background: transparent;
+ }
+ 
+ h1 {
+     color: rgb(62, 94, 126);
+     text-align: center;
+     margin-top: 100px;
+     margin-left: -50px;
+ }
+ 
+ nav {
+     display: block;
+ }
+ 
+ button {
+     padding: 15px 17px;
+     color: rgb(185, 231, 245);
+     background-color: rgb(51, 84, 122);
+     border: rgb(13, 38, 63);
+     font-weight: bold;
+     margin-left: 0.5em;
+ }
+ 
+ ul {
+     list-style-type: none;
+     float: right;
+ }
+ 
+ ul li {
+     margin: 10px;
+     display: inline;
+     color: rgb(21, 81, 99);
+     font-weight: bolder;
+     font-size: 1.3em;
+     display: inline;
+ }

@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+
+.margin {
+    margin: 50px;
+}
+
+img {
+    height: 10%;
+    width: 30%;
+}

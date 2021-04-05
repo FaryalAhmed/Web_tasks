@@ -1,0 +1,17 @@
+#PostsBorder {
+    margin-top: 2%;
+}
+
+.PostSpace {
+    margin-top: 3%;
+    border-bottom: 4px solid rgb(253, 110, 134);
+}
+
+.btn-sm {
+    margin: 2px;
+}
+
+.commentBorder {
+    border-bottom: 4px dashed rgb(163, 60, 158);
+    margin-top: 2%;
+}

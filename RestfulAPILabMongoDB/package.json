@@ -1,0 +1,20 @@
+{
+  "name": "restfulapilabzain",
+  "version": "1.0.0",
+  "description": "RestFulAPI for student data.",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "joi-phone-number": "^4.1.1",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zain Bin Arshad",
+  "license": "ISC"
+}

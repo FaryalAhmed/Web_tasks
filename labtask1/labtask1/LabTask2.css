@@ -1,0 +1,92 @@
+body {
+    background-image: url("./spring.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h2 {
+    color: rgb(23, 128, 16);
+    margin-bottom: 4pc;
+    text-align: center;
+    margin-top: 2pc;
+}
+
+label {
+    color: rgb(23, 128, 16);
+}
+
+form {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    border: 1px solid;
+    width: 250px;
+}
+
+input[type="password"] {
+    border: 1px solid;
+    width: 250px;
+}
+
+input[type="email"] {
+    border: 1px solid;
+    width: 250px;
+}
+
+input[type="datetime-local"] {
+    border: 1px solid;
+    width: 250px;
+    color: rgb(52, 192, 145);
+}
+
+input[type="reset"] {
+    border: 1px solid;
+    padding: 10px 55px;
+    margin-left: 13em;
+}
+
+label {
+    float: left;
+    width: 7em;
+}
+
+button {
+    background-color: rgb(157, 159, 160);
+    padding: 5px;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    border: 3px solid green;
+    width: 40%;
+    background-color: rgb(201, 202, 106);
+}
+
+form {
+    margin-left: 8%;
+}
+
+select {
+    margin-left: 9%;
+}
+
+input[type="radio"] {
+    margin-left: 2%;
+}
+
+label {
+    width: 30%;
+}
+
+button {
+    background-color: rgb(42, 139, 35);
+    color: white;
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 7%;
+    padding: 2%;
+}

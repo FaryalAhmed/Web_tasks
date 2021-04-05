@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person Form</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="LabTask2.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <form action="" name="sign_form" id="sign_form">
+            <h2>Registeration Form</h2>
+            <label for="fname"> First name: </label>
+            <input type="text" name="firstname" id="fname" autofocus class="specific"><br><br>
+            <label for="lastname">Last name: </label>
+
+            <input type="text" name="lastname" id="lname" class="specific"><br><br>
+            <label for="age">Age:</label>
+            <input type="text" name="Age" id="age" class="specific" min="17" max="70"><br><br>
+
+
+
+
+            <label for="email">Email: </label>
+            <input type="text" name="usermail" id="email"><br><br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" name="password" id="pwd"><br><br>
+
+
+            <label for="CNIC">CNIC:</label>
+            <input type="text" placeholder="XXXXX-XXXXXXX-X" id="CNIC"><br><br>
+
+            <label for="url">Blog URL:</label>
+            <input type="text" id="url"><br><br>
+
+            <label for="phone_number">Mobile Number:</label>
+            <input type="text" placeholder="0XXX-XXXXXXX" id="phone_number" pattern="[0-9]{4}-[0-9]{7}" maxlength="12"><br><br>
+
+
+
+
+            <label for="dob">Date of Birth:</label>
+            <input type="datetime-local" id="dob" style="border:1px solid black">
+            <br>
+
+
+            <br> <label for="country">Country:</label>
+            <select style="width: 60%; margin-left:0%">
+                <option value="volvo">Pakistan</option>
+                <option value="saab">Australia</option>
+                <option value="mercedes">USA</option>
+                <option value="audi">UAE</option>
+            </select>
+
+            <br><br>
+            <br><label for="country">Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <br> <br>
+            <button> Submit </button><br>
+
+            <br>
+        </form>
+    </div>
+    <script src="LabTask2.js "></script>
+</body>
+
+</html>
